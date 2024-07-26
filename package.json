@@ -27,6 +27,11 @@
     "lint": "eslint src --ext ts",
     "test": "vscode-test"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
   "devDependencies": {
     "@types/mocha": "^10.0.7",
     "@types/node": "~20.14.12",
@@ -35,6 +40,7 @@
     "@typescript-eslint/parser": "^7.17.0",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.4.1",
+    "cz-git": "^1.9.4",
     "eslint": "^8.57.0",
     "typescript": "^5.5.4"
   }
